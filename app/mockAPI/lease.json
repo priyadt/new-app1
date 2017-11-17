@@ -1,0 +1,13 @@
+{
+  "monthly_payment": 30,
+  "total_down_payment": 0,
+  "apr": 0,
+  "annual_miles": "15000",
+  "money_factor": 10,
+  "selling_price": 30000,
+  "days_to_first_payment": null,
+  "term": 36,
+  "finance_method": "LEAS",
+  "amount_financed": 0,
+  "residual_percentage": 20
+}

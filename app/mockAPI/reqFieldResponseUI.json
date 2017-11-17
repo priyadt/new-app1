@@ -1,0 +1,648 @@
+{
+  "ConsolidatedFields": [],
+  "Errors": [],
+  "Products": [
+    {
+      "ClientProductId": null,
+      "Errors": [],
+      "Fields": [
+        {
+          "Caption": "Aspiration Code",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "6",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "aspiration_code",
+          "Required": "Y",
+          "Value": "N/A"
+        },
+        {
+          "Caption": "Cylinders",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "6",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "cylinders",
+          "Required": "Y",
+          "Value": "N/A"
+        },
+        {
+          "Caption": "Driving Wheels",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "20",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "driving_wheels",
+          "Required": "Y",
+          "Value": "N/A"
+        },
+        {
+          "Caption": "Fuel Type",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "6",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "fuel_type",
+          "Required": "Y",
+          "Value": "N/A"
+        },
+        {
+          "Caption": "Segmentation Code",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "6",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "segmentation_code",
+          "Required": "Y",
+          "Value": "N/A"
+        },
+        {
+          "Caption": "Ton Rating",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "10",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "ton_rating",
+          "Required": "Y",
+          "Value": "N/A"
+        },
+        {
+          "Caption": "In Service Date",
+          "Category": "Collateral",
+          "Comment": "In Service Date is required for Maximum Mileage Vehicle Plans.",
+          "ControlType": "Calendar",
+          "DataType": "Date",
+          "DisplayOnUI": true,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "in_service_date",
+          "Required": "N",
+          "Value": null
+        },
+        {
+          "Caption": "Extended PowerTrain Warranty",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "RadioButton",
+          "DataType": "",
+          "DisplayOnUI": true,
+          "FieldValues": [
+            {
+              "Code": "Y",
+              "Desc": "Yes"
+            },
+            {
+              "Code": "N",
+              "Desc": "No"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "extended_power_train_warranty",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "Manufacture Certified",
+          "Category": "Collateral",
+          "Comment": "",
+          "ControlType": "RadioButton",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": true,
+          "FieldValues": [
+            {
+              "Code": "Y",
+              "Desc": "Yes"
+            },
+            {
+              "Code": "N",
+              "Desc": "No"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "manufactured_certified",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "Usage",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": true,
+          "FieldValues": [
+            {
+              "Code": "Personal",
+              "Desc": "Personal"
+            },
+            {
+              "Code": "Commercial",
+              "Desc": "Commercial"
+            },
+            {
+              "Code": "SnowPlow",
+              "Desc": "SnowPlow"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "usage",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "vin",
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "vin",
+          "Required": "N",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Numeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "odometer",
+          "MaxLength": "11",
+          "MaxValue": "99999999.99",
+          "MinValue": "",
+          "Name": "odometer",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "chrome_year",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "year",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Financing",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": true,
+          "FieldValues": [
+            {
+              "Code": "Finance",
+              "Desc": "Finance"
+            },
+            {
+              "Code": "Lease",
+              "Desc": "Lease"
+            },
+            {
+              "Code": "Balloon",
+              "Desc": "Balloon"
+            },
+            {
+              "Code": "Cash",
+              "Desc": "Cash"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "deal_type",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "chrome_model",
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "model",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Product",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "provider_dealer_id",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [
+            {
+              "Code": "N",
+              "Desc": "New"
+            },
+            {
+              "Code": "U",
+              "Desc": "Used"
+            }
+          ],
+          "MappingAPI": "Vehicle",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "type",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "Book Type",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [
+            {
+              "Code": "NADA",
+              "Desc": "NADA"
+            },
+            {
+              "Code": "CHROME",
+              "Desc": "CHROME"
+            },
+            {
+              "Code": "POLK",
+              "Desc": "POLK"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "book_type",
+          "Required": "Y",
+          "Value": "POLK"
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "chrome_make",
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "make",
+          "Required": "Y",
+          "Value": null
+        }
+      ],
+      "ProductTypeCode": "VSC",
+      "ProviderId": "APC",
+      "ProviderProductId": null
+    },
+    {
+      "ClientProductId": null,
+      "Errors": [],
+      "Fields": [
+        {
+          "Caption": "",
+          "Category": "Financing",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": true,
+          "FieldValues": [
+            {
+              "Code": "Finance",
+              "Desc": "Finance"
+            },
+            {
+              "Code": "Lease",
+              "Desc": "Lease"
+            },
+            {
+              "Code": "Balloon",
+              "Desc": "Balloon"
+            },
+            {
+              "Code": "Cash",
+              "Desc": "Cash"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "deal_type",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "vin",
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "vin",
+          "Required": "N",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Numeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "odometer",
+          "MaxLength": "11",
+          "MaxValue": "99999999.99",
+          "MinValue": "",
+          "Name": "odometer",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "chrome_year",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "year",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "Usage",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": true,
+          "FieldValues": [
+            {
+              "Code": "Personal",
+              "Desc": "Personal"
+            },
+            {
+              "Code": "Commercial",
+              "Desc": "Commercial"
+            },
+            {
+              "Code": "SnowPlow",
+              "Desc": "SnowPlow"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "usage",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "chrome_model",
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "model",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Product",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "provider_dealer_id",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [
+            {
+              "Code": "N",
+              "Desc": "New"
+            },
+            {
+              "Code": "U",
+              "Desc": "Used"
+            }
+          ],
+          "MappingAPI": "Vehicle",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "type",
+          "Required": "Y",
+          "Value": null
+        },
+        {
+          "Caption": "Book Type",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [
+            {
+              "Code": "NADA",
+              "Desc": "NADA"
+            },
+            {
+              "Code": "CHROME",
+              "Desc": "CHROME"
+            },
+            {
+              "Code": "POLK",
+              "Desc": "POLK"
+            }
+          ],
+          "MappingAPI": "",
+          "MappingField": "",
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "book_type",
+          "Required": "Y",
+          "Value": "POLK"
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "DisplayOnUI": false,
+          "FieldValues": [],
+          "MappingAPI": "Vehicle",
+          "MappingField": "chrome_make",
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "make",
+          "Required": "Y",
+          "Value": null
+        }
+      ],
+      "ProductTypeCode": "AP",
+      "ProviderId": "APC",
+      "ProviderProductId": null
+    }
+  ],
+  "keydata": {
+    "ClientDealerId": "116627",
+    "ClientId": "DEM",
+    "ContractDate": "/Date(-62135578800000-0500)/",
+    "Credentials": null,
+    "DTDealerId": "116627",
+    "EchoData": null,
+    "RequestDate": "(1494273754742-0400)"
+  }
+}

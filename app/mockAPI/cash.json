@@ -1,0 +1,13 @@
+{
+  "monthly_payment": 0,
+  "total_down_payment": 1250,
+  "apr": 0,
+  "annual_miles": null,
+  "money_factor": null,
+  "selling_price": 25000,
+  "days_to_first_payment": 0,
+  "term": 1,
+  "finance_method": "RETL",
+  "amount_financed": 0,
+  "residual_percentage": null
+}

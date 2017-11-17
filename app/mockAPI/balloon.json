@@ -1,0 +1,13 @@
+{
+  "monthly_payment": 0,
+  "total_down_payment": 0,
+  "apr": 0,
+  "annual_miles": "100",
+  "money_factor": 0,
+  "selling_price": 36000,
+  "days_to_first_payment": null,
+  "term": 36,
+  "finance_method": "BALL",
+  "amount_financed": 0,
+  "residual_percentage": null
+}
